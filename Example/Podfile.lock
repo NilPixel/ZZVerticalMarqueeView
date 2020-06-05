@@ -1,0 +1,16 @@
+PODS:
+  - ZZVerticalMarqueeView (0.1.0)
+
+DEPENDENCIES:
+  - ZZVerticalMarqueeView (from `../`)
+
+EXTERNAL SOURCES:
+  ZZVerticalMarqueeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZVerticalMarqueeView: 308b83fd366cda5062220a5a0d894385b2409feb
+
+PODFILE CHECKSUM: 18c8324dc777ce1eed31da74c2e16e348aca12c1
+
+COCOAPODS: 1.9.2

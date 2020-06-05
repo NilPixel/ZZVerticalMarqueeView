@@ -1,0 +1,6 @@
+framework module ZZVerticalMarqueeView {
+  umbrella header "ZZVerticalMarqueeView-umbrella.h"
+
+  export *
+  module * { export * }
+}
