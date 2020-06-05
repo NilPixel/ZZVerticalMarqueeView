@@ -1,16 +1,23 @@
 PODS:
-  - ZZVerticalMarqueeView (0.1.0)
+  - Masonry (1.1.0)
+  - ZZVerticalMarqueeView (0.1.0):
+    - Masonry (~> 1.1.0)
 
 DEPENDENCIES:
   - ZZVerticalMarqueeView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   ZZVerticalMarqueeView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZZVerticalMarqueeView: 308b83fd366cda5062220a5a0d894385b2409feb
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ZZVerticalMarqueeView: dcc90a54a2c276f7912b463e748a58def5a91f8a
 
-PODFILE CHECKSUM: 18c8324dc777ce1eed31da74c2e16e348aca12c1
+PODFILE CHECKSUM: 55676b70faf534a49f8b9e5dbc6b231fa8a28a4d
 
 COCOAPODS: 1.9.2

@@ -7,27 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		138FA6A93124330F1A5D552E4630B2F9 /* Pods-ZZVerticalMarqueeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F030C756B617EDE792D58968B3DDC2B4 /* Pods-ZZVerticalMarqueeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A48A3D6037D3F5A61C7EDC7500F1C51 /* Pods-ZZVerticalMarqueeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D199993CF752CA2F8E182C49869FD05C /* Pods-ZZVerticalMarqueeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ACC3B575C3FB5EFA3A59F8DA9179E88 /* ZZVerticalMarqueeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F98B3686FA9D11B7B01893A366EFF664 /* ZZVerticalMarqueeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2692D0683EADC09408E63DFA58D623E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2BFF647FEE2CC5B9700C93C7CBBA5DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3E023E45EF37760B5BD640C42C76DC21 /* Pods-ZZVerticalMarqueeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542DF19F489434A397B066761E5BB48 /* Pods-ZZVerticalMarqueeView_Example-dummy.m */; };
-		416C0B3ECCDE4EA91EB0997BD68B66AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9A62F0477CC44260F3142020900D8BE3 /* ZZVerticalMarqueeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBB6556DE0C1323AF6C6EC3FB85988 /* ZZVerticalMarqueeView-dummy.m */; };
-		B2DF7EBA4F7B0D3F79580202019E03BF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C11FC3A263CBBCE4487FB05D63F70D2 /* ReplaceMe.m */; };
-		B3D3AEE56C68AE39518FD31A1F33017A /* Pods-ZZVerticalMarqueeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4051CB1C89941F31BDDD248A0BE23051 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m */; };
+		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */; };
+		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16864D301862D132D698969202FF65B5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B69B6157C64FFC5EA9BD9D339474CD /* UIView+Extension.m */; };
+		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */; };
+		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */; };
+		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */; };
+		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C98E9618BEC64424C1294A0F26642D8 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F902CC170A4879FB4385EEFAA82CC85 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m */; };
+		A07FC5B09F7E637CA78CECF1EB8CD8F1 /* ZZVerticalMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5617162D85E19D4E56240F944911DD /* ZZVerticalMarqueeView.m */; };
+		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */; };
+		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */; };
+		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */; };
+		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */; };
+		C816ED5D067BB0FDCE958BC7D16853DC /* ZZVerticalMarqueeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A64630950FDF907F34A214E30E2DABEB /* ZZVerticalMarqueeView-dummy.m */; };
+		D011076A123013E9F9853DCFE216D7AE /* Pods-ZZVerticalMarqueeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 307276E005797DABDA6F76506B55BF8E /* Pods-ZZVerticalMarqueeView_Example-dummy.m */; };
+		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */; };
+		E5D67EEA6ABFAA05D1C478D12700E6A2 /* ZZVerticalMarqueeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F61D23B380C51EC1C6314443F187DF /* ZZVerticalMarqueeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */; };
+		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA1FDE695E29FFE04016F888DEEA1070 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAEA11A68B86862BE633FB3C206187F /* UIView+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		401AF42C622B086C3084221A49127379 /* PBXContainerItemProxy */ = {
+		144ED3B8A6A775A822CF0D17C40D8390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		7DD954B9A21CCE6127B48BE7E04C4D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		8CEDD9C1EA51CC36D52096BA21D308B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 56856934734531DE45D30192837D9802;
 			remoteInfo = ZZVerticalMarqueeView;
 		};
-		D6F204EC48B7223EC20C5373C1939444 /* PBXContainerItemProxy */ = {
+		CDD420E3E01F3E8761DDBBBAC162F496 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,216 +74,303 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09CD6A99D9D28B68C42D80F7F4965D25 /* Pods-ZZVerticalMarqueeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0C11FC3A263CBBCE4487FB05D63F70D2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZZVerticalMarqueeView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		0E2F1FF24C9450F71EC0D1BD1B7718EE /* Pods_ZZVerticalMarqueeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZVerticalMarqueeView_Tests.framework; path = "Pods-ZZVerticalMarqueeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		122D82C305FA4FDADC75264BA0AC2DDB /* Pods-ZZVerticalMarqueeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		14315D92710D1CE971789C4710B22157 /* ZZVerticalMarqueeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZZVerticalMarqueeView.modulemap; sourceTree = "<group>"; };
-		1542DF19F489434A397B066761E5BB48 /* Pods-ZZVerticalMarqueeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZVerticalMarqueeView_Example-dummy.m"; sourceTree = "<group>"; };
-		174BE4C7D35B9D533975B50FDFC719A7 /* Pods-ZZVerticalMarqueeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZVerticalMarqueeView_Example.modulemap"; sourceTree = "<group>"; };
-		1EECB65E96E6B223B5B0E7217349DD4A /* ZZVerticalMarqueeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZVerticalMarqueeView-prefix.pch"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34E6668259DBD54821389FFF13D08C08 /* Pods-ZZVerticalMarqueeView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZVerticalMarqueeView_Example-Info.plist"; sourceTree = "<group>"; };
-		36EBB6556DE0C1323AF6C6EC3FB85988 /* ZZVerticalMarqueeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZVerticalMarqueeView-dummy.m"; sourceTree = "<group>"; };
-		4051CB1C89941F31BDDD248A0BE23051 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZVerticalMarqueeView_Tests-dummy.m"; sourceTree = "<group>"; };
-		43B6ABCF2D0C948C50B36EE0A64B7121 /* ZZVerticalMarqueeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZVerticalMarqueeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		463871887EEE258803D81B014181DB53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4BBF35371572C9230333C40C831BC7EB /* Pods-ZZVerticalMarqueeView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZVerticalMarqueeView_Tests-Info.plist"; sourceTree = "<group>"; };
-		756269C83476661D39CCDC3AB49957BF /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZVerticalMarqueeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F10E540C7566BE7F57F51BD2B0088AF /* Pods-ZZVerticalMarqueeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZVerticalMarqueeView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		83089A8986D18FCA4EB41B97E2373E49 /* ZZVerticalMarqueeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZZVerticalMarqueeView.framework; path = ZZVerticalMarqueeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		858485888D57B20238340675979E8173 /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZVerticalMarqueeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A89DDA79E332AA2820357F75CA336EF /* ZZVerticalMarqueeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZVerticalMarqueeView.release.xcconfig; sourceTree = "<group>"; };
-		8EFF48A972CA914737B8E752CDCCB4C5 /* Pods_ZZVerticalMarqueeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZVerticalMarqueeView_Example.framework; path = "Pods-ZZVerticalMarqueeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F77307C43D45DBE8E660A858A3BE3E /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZVerticalMarqueeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		990AE2075E993B11612656C11F0EA4CF /* ZZVerticalMarqueeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZVerticalMarqueeView.debug.xcconfig; sourceTree = "<group>"; };
+		08FDD083860EA84D607AF102541D702E /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZVerticalMarqueeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BCDAB8D1DBEB7EF312B833CD16F34EA /* ZZVerticalMarqueeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZVerticalMarqueeView.debug.xcconfig; sourceTree = "<group>"; };
+		0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0E2F1FF24C9450F71EC0D1BD1B7718EE /* libPods-ZZVerticalMarqueeView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZZVerticalMarqueeView_Tests.a"; path = "libPods-ZZVerticalMarqueeView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14146EC97EE9BDA352509E6076BF07C9 /* ZZVerticalMarqueeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZVerticalMarqueeView.release.xcconfig; sourceTree = "<group>"; };
+		16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		307276E005797DABDA6F76506B55BF8E /* Pods-ZZVerticalMarqueeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZVerticalMarqueeView_Example-dummy.m"; sourceTree = "<group>"; };
+		370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		39F61D23B380C51EC1C6314443F187DF /* ZZVerticalMarqueeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZVerticalMarqueeView.h; path = ZZVerticalMarqueeView/Classes/ZZVerticalMarqueeView.h; sourceTree = "<group>"; };
+		3F902CC170A4879FB4385EEFAA82CC85 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZVerticalMarqueeView_Tests-dummy.m"; sourceTree = "<group>"; };
+		411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		51B69B6157C64FFC5EA9BD9D339474CD /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "ZZVerticalMarqueeView/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
+		553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		79E5CA5CD059D2A004309BF01AC8899A /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZVerticalMarqueeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		80F04C1704BAABA97A25C036D1DE7BED /* Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		83089A8986D18FCA4EB41B97E2373E49 /* libZZVerticalMarqueeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZZVerticalMarqueeView.a; path = libZZVerticalMarqueeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		892FC6295EC327066D70C22BD820B864 /* Pods-ZZVerticalMarqueeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		8C2DF6F9D9B21EED0A8881FB1FCF10E5 /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZVerticalMarqueeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EFF48A972CA914737B8E752CDCCB4C5 /* libPods-ZZVerticalMarqueeView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZZVerticalMarqueeView_Example.a"; path = "libPods-ZZVerticalMarqueeView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DDD084D289DA6FD06B18B25176B4264 /* Pods-ZZVerticalMarqueeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZVerticalMarqueeView_Tests.modulemap"; sourceTree = "<group>"; };
-		9E07E29EDF726C0A7C01B91DF0D20648 /* ZZVerticalMarqueeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZZVerticalMarqueeView-Info.plist"; sourceTree = "<group>"; };
-		C2D0B8159B6836CA739F64D6575AF0BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CA2C48CF11181C35EE73F0C879921297 /* Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D199993CF752CA2F8E182C49869FD05C /* Pods-ZZVerticalMarqueeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZVerticalMarqueeView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E3EE935C02B78CBC044975BBB4C9998D /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZVerticalMarqueeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F030C756B617EDE792D58968B3DDC2B4 /* Pods-ZZVerticalMarqueeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZVerticalMarqueeView_Example-umbrella.h"; sourceTree = "<group>"; };
-		F98B3686FA9D11B7B01893A366EFF664 /* ZZVerticalMarqueeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZVerticalMarqueeView-umbrella.h"; sourceTree = "<group>"; };
-		FB38E83A39E0D4A78DC645D84ED9B144 /* Pods-ZZVerticalMarqueeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		A64630950FDF907F34A214E30E2DABEB /* ZZVerticalMarqueeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZVerticalMarqueeView-dummy.m"; sourceTree = "<group>"; };
+		A7EBF2751476ABDE5C30445719F2C310 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		ABB8B52EF3F2784FD4B1BE1A0F01AA73 /* Pods-ZZVerticalMarqueeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BE5617162D85E19D4E56240F944911DD /* ZZVerticalMarqueeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZVerticalMarqueeView.m; path = ZZVerticalMarqueeView/Classes/ZZVerticalMarqueeView.m; sourceTree = "<group>"; };
+		BEAEA11A68B86862BE633FB3C206187F /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "ZZVerticalMarqueeView/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
+		C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CA3A4935506AA7B524C7AD22FC822BB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CD7F353955ACC1FDD2C36B7B63B0564F /* Pods-ZZVerticalMarqueeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CF572CC20B32B8EC653128049C216675 /* ZZVerticalMarqueeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZVerticalMarqueeView-prefix.pch"; sourceTree = "<group>"; };
+		D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D5E28B8A2E35B0A18EE62FB648A110CA /* ZZVerticalMarqueeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZVerticalMarqueeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6B5CB5329BBC22E44EC376E7E0ABF87 /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZVerticalMarqueeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40E5179A7235C1CAB9B29E0ECA4178AF /* Frameworks */ = {
+		01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416C0B3ECCDE4EA91EB0997BD68B66AD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCDDD38A7B9916F04B585EDF1EA9DE07 /* Frameworks */ = {
+		584ECA82EF052FB50CCDC380939B7085 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2692D0683EADC09408E63DFA58D623E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFD3FB96AE67AA722F1E09406EF9E19B /* Frameworks */ = {
+		E7B41E6ACF7C7F76C7771D13A5759BD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BFF647FEE2CC5B9700C93C7CBBA5DF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE643AF4FB7CD8C033064BDCC08B3BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24E1BE3745EDEA78108A55C7DC1CFEBC /* Products */ = {
+		19132E493E57E42EE0F7775EBC3396E8 /* ZZVerticalMarqueeView */ = {
 			isa = PBXGroup;
 			children = (
-				8EFF48A972CA914737B8E752CDCCB4C5 /* Pods_ZZVerticalMarqueeView_Example.framework */,
-				0E2F1FF24C9450F71EC0D1BD1B7718EE /* Pods_ZZVerticalMarqueeView_Tests.framework */,
-				83089A8986D18FCA4EB41B97E2373E49 /* ZZVerticalMarqueeView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		33D6C2FB211A69E3C470B417D6F01FC1 /* ZZVerticalMarqueeView */ = {
-			isa = PBXGroup;
-			children = (
-				0C11FC3A263CBBCE4487FB05D63F70D2 /* ReplaceMe.m */,
-				49EDFED3F27C6346E2063682F7395E79 /* Pod */,
-				7CADD5C27C62CF1445087292830C17B7 /* Support Files */,
+				BEAEA11A68B86862BE633FB3C206187F /* UIView+Extension.h */,
+				51B69B6157C64FFC5EA9BD9D339474CD /* UIView+Extension.m */,
+				39F61D23B380C51EC1C6314443F187DF /* ZZVerticalMarqueeView.h */,
+				BE5617162D85E19D4E56240F944911DD /* ZZVerticalMarqueeView.m */,
+				F3E05B580A8BA4598DED8F0D0972C07A /* Pod */,
+				E98207F79361D00D76FC1F5426CF9C75 /* Support Files */,
 			);
 			name = ZZVerticalMarqueeView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		49EDFED3F27C6346E2063682F7395E79 /* Pod */ = {
+		4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				463871887EEE258803D81B014181DB53 /* LICENSE */,
-				C2D0B8159B6836CA739F64D6575AF0BF /* README.md */,
-				43B6ABCF2D0C948C50B36EE0A64B7121 /* ZZVerticalMarqueeView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		557F5C5416AEBD63431C93078E3B8304 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				61FA01C831B5E7076F924B94E5F66B2B /* Pods-ZZVerticalMarqueeView_Example */,
-				762C415C506D95A2FE06940732E3C2CC /* Pods-ZZVerticalMarqueeView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		61FA01C831B5E7076F924B94E5F66B2B /* Pods-ZZVerticalMarqueeView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				174BE4C7D35B9D533975B50FDFC719A7 /* Pods-ZZVerticalMarqueeView_Example.modulemap */,
-				E3EE935C02B78CBC044975BBB4C9998D /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.markdown */,
-				93F77307C43D45DBE8E660A858A3BE3E /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.plist */,
-				1542DF19F489434A397B066761E5BB48 /* Pods-ZZVerticalMarqueeView_Example-dummy.m */,
-				7F10E540C7566BE7F57F51BD2B0088AF /* Pods-ZZVerticalMarqueeView_Example-frameworks.sh */,
-				34E6668259DBD54821389FFF13D08C08 /* Pods-ZZVerticalMarqueeView_Example-Info.plist */,
-				F030C756B617EDE792D58968B3DDC2B4 /* Pods-ZZVerticalMarqueeView_Example-umbrella.h */,
-				122D82C305FA4FDADC75264BA0AC2DDB /* Pods-ZZVerticalMarqueeView_Example.debug.xcconfig */,
-				09CD6A99D9D28B68C42D80F7F4965D25 /* Pods-ZZVerticalMarqueeView_Example.release.xcconfig */,
-			);
-			name = "Pods-ZZVerticalMarqueeView_Example";
-			path = "Target Support Files/Pods-ZZVerticalMarqueeView_Example";
-			sourceTree = "<group>";
-		};
-		762C415C506D95A2FE06940732E3C2CC /* Pods-ZZVerticalMarqueeView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9DDD084D289DA6FD06B18B25176B4264 /* Pods-ZZVerticalMarqueeView_Tests.modulemap */,
-				858485888D57B20238340675979E8173 /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.markdown */,
-				756269C83476661D39CCDC3AB49957BF /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.plist */,
-				4051CB1C89941F31BDDD248A0BE23051 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m */,
-				4BBF35371572C9230333C40C831BC7EB /* Pods-ZZVerticalMarqueeView_Tests-Info.plist */,
-				D199993CF752CA2F8E182C49869FD05C /* Pods-ZZVerticalMarqueeView_Tests-umbrella.h */,
-				CA2C48CF11181C35EE73F0C879921297 /* Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig */,
-				FB38E83A39E0D4A78DC645D84ED9B144 /* Pods-ZZVerticalMarqueeView_Tests.release.xcconfig */,
-			);
-			name = "Pods-ZZVerticalMarqueeView_Tests";
-			path = "Target Support Files/Pods-ZZVerticalMarqueeView_Tests";
-			sourceTree = "<group>";
-		};
-		7CADD5C27C62CF1445087292830C17B7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				14315D92710D1CE971789C4710B22157 /* ZZVerticalMarqueeView.modulemap */,
-				36EBB6556DE0C1323AF6C6EC3FB85988 /* ZZVerticalMarqueeView-dummy.m */,
-				9E07E29EDF726C0A7C01B91DF0D20648 /* ZZVerticalMarqueeView-Info.plist */,
-				1EECB65E96E6B223B5B0E7217349DD4A /* ZZVerticalMarqueeView-prefix.pch */,
-				F98B3686FA9D11B7B01893A366EFF664 /* ZZVerticalMarqueeView-umbrella.h */,
-				990AE2075E993B11612656C11F0EA4CF /* ZZVerticalMarqueeView.debug.xcconfig */,
-				8A89DDA79E332AA2820357F75CA336EF /* ZZVerticalMarqueeView.release.xcconfig */,
+				16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */,
+				91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */,
+				72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */,
+				44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZZVerticalMarqueeView";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		903FA14EC1581E2BEFE577BD0EF87092 /* Development Pods */ = {
+		62E7082E35B86E7C57CEDCF7286F52B0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				33D6C2FB211A69E3C470B417D6F01FC1 /* ZZVerticalMarqueeView */,
+				19132E493E57E42EE0F7775EBC3396E8 /* ZZVerticalMarqueeView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				F47FDAAE8298DEBC98D156CFA4146C99 /* Masonry */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85840944B3B5B9123ABAAAA64E6F0C23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE9297DFC52B6B005BBBF3ACAFAE49B0 /* Pods-ZZVerticalMarqueeView_Example */,
+				9392101639C4802B73EF2E6208D4E74E /* Pods-ZZVerticalMarqueeView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91FF13A4EF2466B882330BF744ECFB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				8EFF48A972CA914737B8E752CDCCB4C5 /* libPods-ZZVerticalMarqueeView_Example.a */,
+				0E2F1FF24C9450F71EC0D1BD1B7718EE /* libPods-ZZVerticalMarqueeView_Tests.a */,
+				83089A8986D18FCA4EB41B97E2373E49 /* libZZVerticalMarqueeView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9392101639C4802B73EF2E6208D4E74E /* Pods-ZZVerticalMarqueeView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79E5CA5CD059D2A004309BF01AC8899A /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.markdown */,
+				E6B5CB5329BBC22E44EC376E7E0ABF87 /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.plist */,
+				3F902CC170A4879FB4385EEFAA82CC85 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m */,
+				80F04C1704BAABA97A25C036D1DE7BED /* Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig */,
+				CD7F353955ACC1FDD2C36B7B63B0564F /* Pods-ZZVerticalMarqueeView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZZVerticalMarqueeView_Tests";
+			path = "Target Support Files/Pods-ZZVerticalMarqueeView_Tests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				903FA14EC1581E2BEFE577BD0EF87092 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				24E1BE3745EDEA78108A55C7DC1CFEBC /* Products */,
-				557F5C5416AEBD63431C93078E3B8304 /* Targets Support Files */,
+				62E7082E35B86E7C57CEDCF7286F52B0 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				91FF13A4EF2466B882330BF744ECFB1F /* Products */,
+				85840944B3B5B9123ABAAAA64E6F0C23 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E98207F79361D00D76FC1F5426CF9C75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64630950FDF907F34A214E30E2DABEB /* ZZVerticalMarqueeView-dummy.m */,
+				CF572CC20B32B8EC653128049C216675 /* ZZVerticalMarqueeView-prefix.pch */,
+				0BCDAB8D1DBEB7EF312B833CD16F34EA /* ZZVerticalMarqueeView.debug.xcconfig */,
+				14146EC97EE9BDA352509E6076BF07C9 /* ZZVerticalMarqueeView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZZVerticalMarqueeView";
+			sourceTree = "<group>";
+		};
+		EE9297DFC52B6B005BBBF3ACAFAE49B0 /* Pods-ZZVerticalMarqueeView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				08FDD083860EA84D607AF102541D702E /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.markdown */,
+				8C2DF6F9D9B21EED0A8881FB1FCF10E5 /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.plist */,
+				307276E005797DABDA6F76506B55BF8E /* Pods-ZZVerticalMarqueeView_Example-dummy.m */,
+				892FC6295EC327066D70C22BD820B864 /* Pods-ZZVerticalMarqueeView_Example.debug.xcconfig */,
+				ABB8B52EF3F2784FD4B1BE1A0F01AA73 /* Pods-ZZVerticalMarqueeView_Example.release.xcconfig */,
+			);
+			name = "Pods-ZZVerticalMarqueeView_Example";
+			path = "Target Support Files/Pods-ZZVerticalMarqueeView_Example";
+			sourceTree = "<group>";
+		};
+		F3E05B580A8BA4598DED8F0D0972C07A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA3A4935506AA7B524C7AD22FC822BB7 /* LICENSE */,
+				A7EBF2751476ABDE5C30445719F2C310 /* README.md */,
+				D5E28B8A2E35B0A18EE62FB648A110CA /* ZZVerticalMarqueeView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F47FDAAE8298DEBC98D156CFA4146C99 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */,
+				0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */,
+				411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */,
+				A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */,
+				D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */,
+				72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */,
+				935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */,
+				C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */,
+				AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */,
+				45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */,
+				5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */,
+				49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */,
+				7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */,
+				A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */,
+				2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */,
+				8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */,
+				6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */,
+				C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */,
+				AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */,
+				587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */,
+				370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */,
+				8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */,
+				553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */,
+				4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D5DECB0FBE170F37C7347A9ACE46533 /* Headers */ = {
+		25E03221FCEA1E2BC87DEA4A53D41F37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACC3B575C3FB5EFA3A59F8DA9179E88 /* ZZVerticalMarqueeView-umbrella.h in Headers */,
+				FA1FDE695E29FFE04016F888DEEA1070 /* UIView+Extension.h in Headers */,
+				E5D67EEA6ABFAA05D1C478D12700E6A2 /* ZZVerticalMarqueeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0B3A95EF733B391A2B8F24DB19E8387 /* Headers */ = {
+		2697A8D6B2989B073B236F7B4BF67F30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138FA6A93124330F1A5D552E4630B2F9 /* Pods-ZZVerticalMarqueeView_Example-umbrella.h in Headers */,
+				92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */,
+				4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */,
+				EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */,
+				9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */,
+				7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */,
+				B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */,
+				65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */,
+				42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */,
+				115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */,
+				F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */,
+				81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */,
+				C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */,
+				A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */,
+				E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2D7A5C1704B59907DE850C3EEEAB853 /* Headers */ = {
+		6B77A9FFE70144753E55B858B36FAD07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A48A3D6037D3F5A61C7EDC7500F1C51 /* Pods-ZZVerticalMarqueeView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1614C0A6E325F2B7220C4F9CE6E15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,59 +379,75 @@
 /* Begin PBXNativeTarget section */
 		1919B3FFE3CA1E3B96597E6FB08D28A8 /* Pods-ZZVerticalMarqueeView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55CCF7D6970FCEE27E2033C30233DFD4 /* Build configuration list for PBXNativeTarget "Pods-ZZVerticalMarqueeView_Example" */;
+			buildConfigurationList = 2483A2CED1BA2C54CDCA6FADEC721E54 /* Build configuration list for PBXNativeTarget "Pods-ZZVerticalMarqueeView_Example" */;
 			buildPhases = (
-				E0B3A95EF733B391A2B8F24DB19E8387 /* Headers */,
-				4C55B1924BA3DA0E5CA805B9FF3C0D60 /* Sources */,
-				40E5179A7235C1CAB9B29E0ECA4178AF /* Frameworks */,
-				AC4E8CC4EECA4918CE58B1EAA7680CD2 /* Resources */,
+				C0A1614C0A6E325F2B7220C4F9CE6E15 /* Headers */,
+				3FC85AB19C043E0622D058933DD7A89D /* Sources */,
+				E7B41E6ACF7C7F76C7771D13A5759BD3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6856FD96FE9DEA233CF1D4F36752632C /* PBXTargetDependency */,
+				55E82C41B303626AB647160C14CDAB60 /* PBXTargetDependency */,
+				DC03C52A9CCF818830378E3DE5237FBA /* PBXTargetDependency */,
 			);
 			name = "Pods-ZZVerticalMarqueeView_Example";
 			productName = "Pods-ZZVerticalMarqueeView_Example";
-			productReference = 8EFF48A972CA914737B8E752CDCCB4C5 /* Pods_ZZVerticalMarqueeView_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 8EFF48A972CA914737B8E752CDCCB4C5 /* libPods-ZZVerticalMarqueeView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				2697A8D6B2989B073B236F7B4BF67F30 /* Headers */,
+				8C28688BF2BD730285E2F5DE30F8C021 /* Sources */,
+				01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		56856934734531DE45D30192837D9802 /* ZZVerticalMarqueeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 312994B4DF3C247F8EDF29042387E1FC /* Build configuration list for PBXNativeTarget "ZZVerticalMarqueeView" */;
+			buildConfigurationList = 2A3D03356FEF51384FE3B72E37FE76DF /* Build configuration list for PBXNativeTarget "ZZVerticalMarqueeView" */;
 			buildPhases = (
-				3D5DECB0FBE170F37C7347A9ACE46533 /* Headers */,
-				2C6C1EE72A11696F088CCFB126EECE2F /* Sources */,
-				DCDDD38A7B9916F04B585EDF1EA9DE07 /* Frameworks */,
-				1FEB3B82EF29967C689AD7F9494DACC8 /* Resources */,
+				25E03221FCEA1E2BC87DEA4A53D41F37 /* Headers */,
+				2116A6986CCC209935F44AF0B7F29467 /* Sources */,
+				584ECA82EF052FB50CCDC380939B7085 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				803848969B97331574166795FD79FF4C /* PBXTargetDependency */,
 			);
 			name = ZZVerticalMarqueeView;
 			productName = ZZVerticalMarqueeView;
-			productReference = 83089A8986D18FCA4EB41B97E2373E49 /* ZZVerticalMarqueeView.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 83089A8986D18FCA4EB41B97E2373E49 /* libZZVerticalMarqueeView.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		A4CBB5A7989A8BA9D27DCC93DEE53A97 /* Pods-ZZVerticalMarqueeView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42CA4129A18626B91CE50BA0415EC034 /* Build configuration list for PBXNativeTarget "Pods-ZZVerticalMarqueeView_Tests" */;
+			buildConfigurationList = AE54599A5EFBC5AD717C511D52963018 /* Build configuration list for PBXNativeTarget "Pods-ZZVerticalMarqueeView_Tests" */;
 			buildPhases = (
-				E2D7A5C1704B59907DE850C3EEEAB853 /* Headers */,
-				ED2A84405A7606CB7497F9147A6F7514 /* Sources */,
-				EFD3FB96AE67AA722F1E09406EF9E19B /* Frameworks */,
-				114B42F6089C213A5D0B20E2F32413B8 /* Resources */,
+				6B77A9FFE70144753E55B858B36FAD07 /* Headers */,
+				C9DB4349DE2A50DFEF1BE2A17EB55F9F /* Sources */,
+				EE643AF4FB7CD8C033064BDCC08B3BE5 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3C9E6B62036FE2F91A1DBB37F7A742B2 /* PBXTargetDependency */,
+				1AEBA31AB3DE1585366698CF8052ED9D /* PBXTargetDependency */,
 			);
 			name = "Pods-ZZVerticalMarqueeView_Tests";
 			productName = "Pods-ZZVerticalMarqueeView_Tests";
-			productReference = 0E2F1FF24C9450F71EC0D1BD1B7718EE /* Pods_ZZVerticalMarqueeView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 0E2F1FF24C9450F71EC0D1BD1B7718EE /* libPods-ZZVerticalMarqueeView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -327,10 +467,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 24E1BE3745EDEA78108A55C7DC1CFEBC /* Products */;
+			productRefGroup = 91FF13A4EF2466B882330BF744ECFB1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				1919B3FFE3CA1E3B96597E6FB08D28A8 /* Pods-ZZVerticalMarqueeView_Example */,
 				A4CBB5A7989A8BA9D27DCC93DEE53A97 /* Pods-ZZVerticalMarqueeView_Tests */,
 				56856934734531DE45D30192837D9802 /* ZZVerticalMarqueeView */,
@@ -338,171 +479,174 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		114B42F6089C213A5D0B20E2F32413B8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FEB3B82EF29967C689AD7F9494DACC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC4E8CC4EECA4918CE58B1EAA7680CD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2C6C1EE72A11696F088CCFB126EECE2F /* Sources */ = {
+		2116A6986CCC209935F44AF0B7F29467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2DF7EBA4F7B0D3F79580202019E03BF /* ReplaceMe.m in Sources */,
-				9A62F0477CC44260F3142020900D8BE3 /* ZZVerticalMarqueeView-dummy.m in Sources */,
+				16864D301862D132D698969202FF65B5 /* UIView+Extension.m in Sources */,
+				C816ED5D067BB0FDCE958BC7D16853DC /* ZZVerticalMarqueeView-dummy.m in Sources */,
+				A07FC5B09F7E637CA78CECF1EB8CD8F1 /* ZZVerticalMarqueeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C55B1924BA3DA0E5CA805B9FF3C0D60 /* Sources */ = {
+		3FC85AB19C043E0622D058933DD7A89D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E023E45EF37760B5BD640C42C76DC21 /* Pods-ZZVerticalMarqueeView_Example-dummy.m in Sources */,
+				D011076A123013E9F9853DCFE216D7AE /* Pods-ZZVerticalMarqueeView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED2A84405A7606CB7497F9147A6F7514 /* Sources */ = {
+		8C28688BF2BD730285E2F5DE30F8C021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D3AEE56C68AE39518FD31A1F33017A /* Pods-ZZVerticalMarqueeView_Tests-dummy.m in Sources */,
+				63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */,
+				EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */,
+				1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */,
+				0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */,
+				D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */,
+				A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */,
+				572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */,
+				B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */,
+				59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */,
+				C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DB4349DE2A50DFEF1BE2A17EB55F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C98E9618BEC64424C1294A0F26642D8 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C9E6B62036FE2F91A1DBB37F7A742B2 /* PBXTargetDependency */ = {
+		1AEBA31AB3DE1585366698CF8052ED9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZZVerticalMarqueeView_Example";
 			target = 1919B3FFE3CA1E3B96597E6FB08D28A8 /* Pods-ZZVerticalMarqueeView_Example */;
-			targetProxy = D6F204EC48B7223EC20C5373C1939444 /* PBXContainerItemProxy */;
+			targetProxy = CDD420E3E01F3E8761DDBBBAC162F496 /* PBXContainerItemProxy */;
 		};
-		6856FD96FE9DEA233CF1D4F36752632C /* PBXTargetDependency */ = {
+		55E82C41B303626AB647160C14CDAB60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 7DD954B9A21CCE6127B48BE7E04C4D6A /* PBXContainerItemProxy */;
+		};
+		803848969B97331574166795FD79FF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 144ED3B8A6A775A822CF0D17C40D8390 /* PBXContainerItemProxy */;
+		};
+		DC03C52A9CCF818830378E3DE5237FBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZZVerticalMarqueeView;
 			target = 56856934734531DE45D30192837D9802 /* ZZVerticalMarqueeView */;
-			targetProxy = 401AF42C622B086C3084221A49127379 /* PBXContainerItemProxy */;
+			targetProxy = 8CEDD9C1EA51CC36D52096BA21D308B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		22AF3EAA8D936DA323F97F7562142433 /* Release */ = {
+		03ADC59AD8D134B2B9E86A04B82CEC48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB38E83A39E0D4A78DC645D84ED9B144 /* Pods-ZZVerticalMarqueeView_Tests.release.xcconfig */;
+			baseConfigurationReference = 44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZVerticalMarqueeView_Tests/Pods-ZZVerticalMarqueeView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZVerticalMarqueeView_Tests/Pods-ZZVerticalMarqueeView_Tests.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3462D4131E5D01B2265DE476F273C240 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A89DDA79E332AA2820357F75CA336EF /* ZZVerticalMarqueeView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView.modulemap";
-				PRODUCT_MODULE_NAME = ZZVerticalMarqueeView;
-				PRODUCT_NAME = ZZVerticalMarqueeView;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3A60FE461DDE55E2AD6FAAB8D41BF321 /* Release */ = {
+		2815071596C85F92919A1CC53D886626 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09CD6A99D9D28B68C42D80F7F4965D25 /* Pods-ZZVerticalMarqueeView_Example.release.xcconfig */;
+			baseConfigurationReference = ABB8B52EF3F2784FD4B1BE1A0F01AA73 /* Pods-ZZVerticalMarqueeView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZVerticalMarqueeView_Example/Pods-ZZVerticalMarqueeView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZVerticalMarqueeView_Example/Pods-ZZVerticalMarqueeView_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A61841619F2F342F2D6882A36D26A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCDAB8D1DBEB7EF312B833CD16F34EA /* ZZVerticalMarqueeView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZZVerticalMarqueeView;
+				PRODUCT_NAME = ZZVerticalMarqueeView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44A648C5128FDB2013D2002F1537F92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14146EC97EE9BDA352509E6076BF07C9 /* ZZVerticalMarqueeView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZZVerticalMarqueeView;
+				PRODUCT_NAME = ZZVerticalMarqueeView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -565,6 +709,30 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		514889E0BA1EAABD6BC23A69901CB2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -630,120 +798,96 @@
 			};
 			name = Debug;
 		};
-		917B4DCCCA3E182D85699745A6630F0D /* Debug */ = {
+		EC4109DC511A0062C174816D3C469E8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 990AE2075E993B11612656C11F0EA4CF /* ZZVerticalMarqueeView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView.modulemap";
-				PRODUCT_MODULE_NAME = ZZVerticalMarqueeView;
-				PRODUCT_NAME = ZZVerticalMarqueeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D0C493B95A5AE1D041A399504DDF77F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 122D82C305FA4FDADC75264BA0AC2DDB /* Pods-ZZVerticalMarqueeView_Example.debug.xcconfig */;
+			baseConfigurationReference = 80F04C1704BAABA97A25C036D1DE7BED /* Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZVerticalMarqueeView_Example/Pods-ZZVerticalMarqueeView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZVerticalMarqueeView_Example/Pods-ZZVerticalMarqueeView_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EF6ECA3E21830873654EA98547CE0C46 /* Debug */ = {
+		EE711596360FD818EDD2F7B46D910B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA2C48CF11181C35EE73F0C879921297 /* Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 892FC6295EC327066D70C22BD820B864 /* Pods-ZZVerticalMarqueeView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZVerticalMarqueeView_Tests/Pods-ZZVerticalMarqueeView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZVerticalMarqueeView_Tests/Pods-ZZVerticalMarqueeView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F686ADACCDE1778A6F69009E507D026A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7F353955ACC1FDD2C36B7B63B0564F /* Pods-ZZVerticalMarqueeView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		312994B4DF3C247F8EDF29042387E1FC /* Build configuration list for PBXNativeTarget "ZZVerticalMarqueeView" */ = {
+		0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				917B4DCCCA3E182D85699745A6630F0D /* Debug */,
-				3462D4131E5D01B2265DE476F273C240 /* Release */,
+				514889E0BA1EAABD6BC23A69901CB2DB /* Debug */,
+				03ADC59AD8D134B2B9E86A04B82CEC48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42CA4129A18626B91CE50BA0415EC034 /* Build configuration list for PBXNativeTarget "Pods-ZZVerticalMarqueeView_Tests" */ = {
+		2483A2CED1BA2C54CDCA6FADEC721E54 /* Build configuration list for PBXNativeTarget "Pods-ZZVerticalMarqueeView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF6ECA3E21830873654EA98547CE0C46 /* Debug */,
-				22AF3EAA8D936DA323F97F7562142433 /* Release */,
+				EE711596360FD818EDD2F7B46D910B01 /* Debug */,
+				2815071596C85F92919A1CC53D886626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3D03356FEF51384FE3B72E37FE76DF /* Build configuration list for PBXNativeTarget "ZZVerticalMarqueeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A61841619F2F342F2D6882A36D26A24 /* Debug */,
+				44A648C5128FDB2013D2002F1537F92F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,11 +901,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55CCF7D6970FCEE27E2033C30233DFD4 /* Build configuration list for PBXNativeTarget "Pods-ZZVerticalMarqueeView_Example" */ = {
+		AE54599A5EFBC5AD717C511D52963018 /* Build configuration list for PBXNativeTarget "Pods-ZZVerticalMarqueeView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0C493B95A5AE1D041A399504DDF77F1 /* Debug */,
-				3A60FE461DDE55E2AD6FAAB8D41BF321 /* Release */,
+				EC4109DC511A0062C174816D3C469E8B /* Debug */,
+				F686ADACCDE1778A6F69009E507D026A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,8 +7,11 @@
 //
 
 #import "ZZViewController.h"
+#import "ZZVerticalMarqueeView.h"
 
 @interface ZZViewController ()
+
+@property (weak, nonatomic) IBOutlet ZZVerticalMarqueeView *marqueeView;
 
 @end
 
@@ -17,7 +20,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.marqueeView.titleFont = [UIFont systemFontOfSize:15];
+    self.marqueeView.titleColor = [UIColor darkGrayColor];
+    self.marqueeView.titleArr = @[@"公告1", @"公告2"];
+    [self.marqueeView start];
 }
 
 - (void)didReceiveMemoryWarning
