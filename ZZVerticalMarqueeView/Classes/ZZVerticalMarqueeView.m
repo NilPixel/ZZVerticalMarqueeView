@@ -71,7 +71,7 @@
     
     [self.moreBtn setTitle:self.titleArr[self.titleIndex + 1] forState:UIControlStateNormal];
     
-    [UIView animateWithDuration:0.35 animations:^{
+    [UIView animateWithDuration:0.55 animations:^{
         self.firstBtn.y = -self.bounds.size.height;
         self.moreBtn.y = 0;
     } completion:^(BOOL finished) {
