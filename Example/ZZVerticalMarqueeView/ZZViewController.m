@@ -7,23 +7,23 @@
 //
 
 #import "ZZViewController.h"
-#import "ZZVerticalMarqueeView.h"
+#import "ZZMarqueeViewController.h"
 
 @interface ZZViewController ()
-
-@property (weak, nonatomic) IBOutlet ZZVerticalMarqueeView *marqueeView;
 
 @end
 
 @implementation ZZViewController
 
+- (IBAction)jumpBtnClicked:(UIButton *)sender {
+    ZZMarqueeViewController *marqueeVC = [[ZZMarqueeViewController alloc] init];
+    [self.navigationController pushViewController:marqueeVC animated:YES];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.marqueeView.titleFont = [UIFont systemFontOfSize:15];
-    self.marqueeView.titleColor = [UIColor darkGrayColor];
-    self.marqueeView.titleArr = @[@"公告1", @"公告2"];
-    [self.marqueeView start];
+
 }
 
 - (void)didReceiveMemoryWarning

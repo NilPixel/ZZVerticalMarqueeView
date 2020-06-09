@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */; };
 		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		16864D301862D132D698969202FF65B5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B69B6157C64FFC5EA9BD9D339474CD /* UIView+Extension.m */; };
 		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */; };
+		371DCF3494E137BE06A1F6C7F1F186FF /* ZZVerticalMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4EBB1B4C5657252AE5295D58C0A9C /* ZZVerticalMarqueeView.m */; };
 		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -23,33 +23,28 @@
 		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9C98E9618BEC64424C1294A0F26642D8 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F902CC170A4879FB4385EEFAA82CC85 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m */; };
-		A07FC5B09F7E637CA78CECF1EB8CD8F1 /* ZZVerticalMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5617162D85E19D4E56240F944911DD /* ZZVerticalMarqueeView.m */; };
 		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */; };
 		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */; };
+		BCC5795D4ED796F6EE407A62D7D27885 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE118642D6C378AFBB21A658D5349EC /* UIView+Extension.m */; };
 		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */; };
 		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */; };
-		C816ED5D067BB0FDCE958BC7D16853DC /* ZZVerticalMarqueeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A64630950FDF907F34A214E30E2DABEB /* ZZVerticalMarqueeView-dummy.m */; };
+		CD09957BC2A930CC082E9FA731EC097C /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D3A675D9DD1C43158D6901F870E514 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D011076A123013E9F9853DCFE216D7AE /* Pods-ZZVerticalMarqueeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 307276E005797DABDA6F76506B55BF8E /* Pods-ZZVerticalMarqueeView_Example-dummy.m */; };
+		D423517442AFCE67DEB9D342CE26AB8E /* ZZVerticalMarqueeView.h in Headers */ = {isa = PBXBuildFile; fileRef = A035A22E4824C8C155094203446919CC /* ZZVerticalMarqueeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D462FAD3EFBA3042773C48AA324C9F80 /* TimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C36D7D979E7436D531059E0F110E6 /* TimerProxy.m */; };
 		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */; };
-		E5D67EEA6ABFAA05D1C478D12700E6A2 /* ZZVerticalMarqueeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F61D23B380C51EC1C6314443F187DF /* ZZVerticalMarqueeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE3EDAA86139B4ECE65A560755BA2CAD /* ZZVerticalMarqueeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2055DA42377FE703F5032E629B28E2 /* ZZVerticalMarqueeView-dummy.m */; };
 		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */; };
 		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FA1FDE695E29FFE04016F888DEEA1070 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAEA11A68B86862BE633FB3C206187F /* UIView+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7ADAD1338A198C01E3642D6896A0D51 /* TimerProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 873E36A7A3ECB30FBE07E82162A01FBA /* TimerProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		144ED3B8A6A775A822CF0D17C40D8390 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
 		7DD954B9A21CCE6127B48BE7E04C4D6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -64,6 +59,13 @@
 			remoteGlobalIDString = 56856934734531DE45D30192837D9802;
 			remoteInfo = ZZVerticalMarqueeView;
 		};
+		8E3DFE24B474F1D5E0B577BFBF1FB0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 		CDD420E3E01F3E8761DDBBBAC162F496 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -75,35 +77,41 @@
 
 /* Begin PBXFileReference section */
 		08FDD083860EA84D607AF102541D702E /* Pods-ZZVerticalMarqueeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZVerticalMarqueeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0BCDAB8D1DBEB7EF312B833CD16F34EA /* ZZVerticalMarqueeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZVerticalMarqueeView.debug.xcconfig; sourceTree = "<group>"; };
+		0CE118642D6C378AFBB21A658D5349EC /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "ZZVerticalMarqueeView/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
 		0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		0E2F1FF24C9450F71EC0D1BD1B7718EE /* libPods-ZZVerticalMarqueeView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZZVerticalMarqueeView_Tests.a"; path = "libPods-ZZVerticalMarqueeView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14146EC97EE9BDA352509E6076BF07C9 /* ZZVerticalMarqueeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZVerticalMarqueeView.release.xcconfig; sourceTree = "<group>"; };
 		16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2534DDE9EC300027C72F75FDB0D48550 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		307276E005797DABDA6F76506B55BF8E /* Pods-ZZVerticalMarqueeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZVerticalMarqueeView_Example-dummy.m"; sourceTree = "<group>"; };
 		370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		39F61D23B380C51EC1C6314443F187DF /* ZZVerticalMarqueeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZVerticalMarqueeView.h; path = ZZVerticalMarqueeView/Classes/ZZVerticalMarqueeView.h; sourceTree = "<group>"; };
+		3F262C1A7DFF90BF104F32A54851DCC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3F902CC170A4879FB4385EEFAA82CC85 /* Pods-ZZVerticalMarqueeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZVerticalMarqueeView_Tests-dummy.m"; sourceTree = "<group>"; };
 		411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		51B69B6157C64FFC5EA9BD9D339474CD /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "ZZVerticalMarqueeView/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
 		553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		5F2055DA42377FE703F5032E629B28E2 /* ZZVerticalMarqueeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZVerticalMarqueeView-dummy.m"; sourceTree = "<group>"; };
+		61E9D2BDADD8275CDBD4FEE2CB2C4291 /* ZZVerticalMarqueeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZVerticalMarqueeView.debug.xcconfig; sourceTree = "<group>"; };
 		64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		6ECE0E5AB78CE0A81955CB44E1E724CD /* ZZVerticalMarqueeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZVerticalMarqueeView-prefix.pch"; sourceTree = "<group>"; };
+		6F24FF93CAF39390C7AE104569B1C8D0 /* ZZVerticalMarqueeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZVerticalMarqueeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		79D3A675D9DD1C43158D6901F870E514 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "ZZVerticalMarqueeView/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
 		79E5CA5CD059D2A004309BF01AC8899A /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZVerticalMarqueeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DC4EBB1B4C5657252AE5295D58C0A9C /* ZZVerticalMarqueeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZVerticalMarqueeView.m; path = ZZVerticalMarqueeView/Classes/ZZVerticalMarqueeView.m; sourceTree = "<group>"; };
 		7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		80F04C1704BAABA97A25C036D1DE7BED /* Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		83089A8986D18FCA4EB41B97E2373E49 /* libZZVerticalMarqueeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZZVerticalMarqueeView.a; path = libZZVerticalMarqueeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		873E36A7A3ECB30FBE07E82162A01FBA /* TimerProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimerProxy.h; path = ZZVerticalMarqueeView/Classes/TimerProxy.h; sourceTree = "<group>"; };
 		892FC6295EC327066D70C22BD820B864 /* Pods-ZZVerticalMarqueeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
@@ -112,23 +120,19 @@
 		91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A035A22E4824C8C155094203446919CC /* ZZVerticalMarqueeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZVerticalMarqueeView.h; path = ZZVerticalMarqueeView/Classes/ZZVerticalMarqueeView.h; sourceTree = "<group>"; };
 		A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		A64630950FDF907F34A214E30E2DABEB /* ZZVerticalMarqueeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZVerticalMarqueeView-dummy.m"; sourceTree = "<group>"; };
-		A7EBF2751476ABDE5C30445719F2C310 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		ABB8B52EF3F2784FD4B1BE1A0F01AA73 /* Pods-ZZVerticalMarqueeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BE5617162D85E19D4E56240F944911DD /* ZZVerticalMarqueeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZVerticalMarqueeView.m; path = ZZVerticalMarqueeView/Classes/ZZVerticalMarqueeView.m; sourceTree = "<group>"; };
-		BEAEA11A68B86862BE633FB3C206187F /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "ZZVerticalMarqueeView/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
 		C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		CA3A4935506AA7B524C7AD22FC822BB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CD7F353955ACC1FDD2C36B7B63B0564F /* Pods-ZZVerticalMarqueeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZVerticalMarqueeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF572CC20B32B8EC653128049C216675 /* ZZVerticalMarqueeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZVerticalMarqueeView-prefix.pch"; sourceTree = "<group>"; };
 		D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		D5E28B8A2E35B0A18EE62FB648A110CA /* ZZVerticalMarqueeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZVerticalMarqueeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E6B5CB5329BBC22E44EC376E7E0ABF87 /* Pods-ZZVerticalMarqueeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZVerticalMarqueeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5BF7C71357739C2D7F9808425D43116 /* ZZVerticalMarqueeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZVerticalMarqueeView.release.xcconfig; sourceTree = "<group>"; };
+		FD0C36D7D979E7436D531059E0F110E6 /* TimerProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimerProxy.m; path = ZZVerticalMarqueeView/Classes/TimerProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +143,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		584ECA82EF052FB50CCDC380939B7085 /* Frameworks */ = {
+		9E4D263D4232124DC50976B8FBCF8D18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,18 +167,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19132E493E57E42EE0F7775EBC3396E8 /* ZZVerticalMarqueeView */ = {
+		082B4495774DBD5294481930296AB31A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BEAEA11A68B86862BE633FB3C206187F /* UIView+Extension.h */,
-				51B69B6157C64FFC5EA9BD9D339474CD /* UIView+Extension.m */,
-				39F61D23B380C51EC1C6314443F187DF /* ZZVerticalMarqueeView.h */,
-				BE5617162D85E19D4E56240F944911DD /* ZZVerticalMarqueeView.m */,
-				F3E05B580A8BA4598DED8F0D0972C07A /* Pod */,
-				E98207F79361D00D76FC1F5426CF9C75 /* Support Files */,
+				3F262C1A7DFF90BF104F32A54851DCC4 /* LICENSE */,
+				2534DDE9EC300027C72F75FDB0D48550 /* README.md */,
+				6F24FF93CAF39390C7AE104569B1C8D0 /* ZZVerticalMarqueeView.podspec */,
 			);
-			name = ZZVerticalMarqueeView;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2136512B877F030B9BE7C0A6DBA5B092 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2055DA42377FE703F5032E629B28E2 /* ZZVerticalMarqueeView-dummy.m */,
+				6ECE0E5AB78CE0A81955CB44E1E724CD /* ZZVerticalMarqueeView-prefix.pch */,
+				61E9D2BDADD8275CDBD4FEE2CB2C4291 /* ZZVerticalMarqueeView.debug.xcconfig */,
+				F5BF7C71357739C2D7F9808425D43116 /* ZZVerticalMarqueeView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZZVerticalMarqueeView";
+			sourceTree = "<group>";
+		};
+		271E085314249326ADEEE987224F899D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8949D2C84E37ADF66F6CE75AAD0795A6 /* ZZVerticalMarqueeView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */ = {
@@ -187,14 +207,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		62E7082E35B86E7C57CEDCF7286F52B0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				19132E493E57E42EE0F7775EBC3396E8 /* ZZVerticalMarqueeView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
@@ -212,6 +224,22 @@
 				9392101639C4802B73EF2E6208D4E74E /* Pods-ZZVerticalMarqueeView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8949D2C84E37ADF66F6CE75AAD0795A6 /* ZZVerticalMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				873E36A7A3ECB30FBE07E82162A01FBA /* TimerProxy.h */,
+				FD0C36D7D979E7436D531059E0F110E6 /* TimerProxy.m */,
+				79D3A675D9DD1C43158D6901F870E514 /* UIView+Extension.h */,
+				0CE118642D6C378AFBB21A658D5349EC /* UIView+Extension.m */,
+				A035A22E4824C8C155094203446919CC /* ZZVerticalMarqueeView.h */,
+				7DC4EBB1B4C5657252AE5295D58C0A9C /* ZZVerticalMarqueeView.m */,
+				082B4495774DBD5294481930296AB31A /* Pod */,
+				2136512B877F030B9BE7C0A6DBA5B092 /* Support Files */,
+			);
+			name = ZZVerticalMarqueeView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		91FF13A4EF2466B882330BF744ECFB1F /* Products */ = {
@@ -242,7 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				62E7082E35B86E7C57CEDCF7286F52B0 /* Development Pods */,
+				271E085314249326ADEEE987224F899D /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				91FF13A4EF2466B882330BF744ECFB1F /* Products */,
@@ -257,18 +285,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E98207F79361D00D76FC1F5426CF9C75 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A64630950FDF907F34A214E30E2DABEB /* ZZVerticalMarqueeView-dummy.m */,
-				CF572CC20B32B8EC653128049C216675 /* ZZVerticalMarqueeView-prefix.pch */,
-				0BCDAB8D1DBEB7EF312B833CD16F34EA /* ZZVerticalMarqueeView.debug.xcconfig */,
-				14146EC97EE9BDA352509E6076BF07C9 /* ZZVerticalMarqueeView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZZVerticalMarqueeView";
-			sourceTree = "<group>";
-		};
 		EE9297DFC52B6B005BBBF3ACAFAE49B0 /* Pods-ZZVerticalMarqueeView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,16 +296,6 @@
 			);
 			name = "Pods-ZZVerticalMarqueeView_Example";
 			path = "Target Support Files/Pods-ZZVerticalMarqueeView_Example";
-			sourceTree = "<group>";
-		};
-		F3E05B580A8BA4598DED8F0D0972C07A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CA3A4935506AA7B524C7AD22FC822BB7 /* LICENSE */,
-				A7EBF2751476ABDE5C30445719F2C310 /* README.md */,
-				D5E28B8A2E35B0A18EE62FB648A110CA /* ZZVerticalMarqueeView.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F47FDAAE8298DEBC98D156CFA4146C99 /* Masonry */ = {
@@ -329,15 +335,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		25E03221FCEA1E2BC87DEA4A53D41F37 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA1FDE695E29FFE04016F888DEEA1070 /* UIView+Extension.h in Headers */,
-				E5D67EEA6ABFAA05D1C478D12700E6A2 /* ZZVerticalMarqueeView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2697A8D6B2989B073B236F7B4BF67F30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +354,16 @@
 				46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */,
 				A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */,
 				E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66542246440717FA7EA5D2CE75DF70BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADAD1338A198C01E3642D6896A0D51 /* TimerProxy.h in Headers */,
+				CD09957BC2A930CC082E9FA731EC097C /* UIView+Extension.h in Headers */,
+				D423517442AFCE67DEB9D342CE26AB8E /* ZZVerticalMarqueeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,16 +422,16 @@
 		};
 		56856934734531DE45D30192837D9802 /* ZZVerticalMarqueeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A3D03356FEF51384FE3B72E37FE76DF /* Build configuration list for PBXNativeTarget "ZZVerticalMarqueeView" */;
+			buildConfigurationList = 32EC5C7591A8BD66131340B3BDA6E327 /* Build configuration list for PBXNativeTarget "ZZVerticalMarqueeView" */;
 			buildPhases = (
-				25E03221FCEA1E2BC87DEA4A53D41F37 /* Headers */,
-				2116A6986CCC209935F44AF0B7F29467 /* Sources */,
-				584ECA82EF052FB50CCDC380939B7085 /* Frameworks */,
+				66542246440717FA7EA5D2CE75DF70BA /* Headers */,
+				F2F4FDAF7060000F352F9DB8601FB524 /* Sources */,
+				9E4D263D4232124DC50976B8FBCF8D18 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				803848969B97331574166795FD79FF4C /* PBXTargetDependency */,
+				0FDC9CE714A0CF7CF8D7426243C2A2A1 /* PBXTargetDependency */,
 			);
 			name = ZZVerticalMarqueeView;
 			productName = ZZVerticalMarqueeView;
@@ -480,16 +487,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2116A6986CCC209935F44AF0B7F29467 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16864D301862D132D698969202FF65B5 /* UIView+Extension.m in Sources */,
-				C816ED5D067BB0FDCE958BC7D16853DC /* ZZVerticalMarqueeView-dummy.m in Sources */,
-				A07FC5B09F7E637CA78CECF1EB8CD8F1 /* ZZVerticalMarqueeView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3FC85AB19C043E0622D058933DD7A89D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -524,9 +521,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2F4FDAF7060000F352F9DB8601FB524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D462FAD3EFBA3042773C48AA324C9F80 /* TimerProxy.m in Sources */,
+				BCC5795D4ED796F6EE407A62D7D27885 /* UIView+Extension.m in Sources */,
+				EE3EDAA86139B4ECE65A560755BA2CAD /* ZZVerticalMarqueeView-dummy.m in Sources */,
+				371DCF3494E137BE06A1F6C7F1F186FF /* ZZVerticalMarqueeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0FDC9CE714A0CF7CF8D7426243C2A2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 8E3DFE24B474F1D5E0B577BFBF1FB0A6 /* PBXContainerItemProxy */;
+		};
 		1AEBA31AB3DE1585366698CF8052ED9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZZVerticalMarqueeView_Example";
@@ -538,12 +552,6 @@
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = 7DD954B9A21CCE6127B48BE7E04C4D6A /* PBXContainerItemProxy */;
-		};
-		803848969B97331574166795FD79FF4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 144ED3B8A6A775A822CF0D17C40D8390 /* PBXContainerItemProxy */;
 		};
 		DC03C52A9CCF818830378E3DE5237FBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -601,33 +609,9 @@
 			};
 			name = Release;
 		};
-		3A61841619F2F342F2D6882A36D26A24 /* Debug */ = {
+		312055BA43991F9F360B8B0D3D65ACB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BCDAB8D1DBEB7EF312B833CD16F34EA /* ZZVerticalMarqueeView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ZZVerticalMarqueeView;
-				PRODUCT_NAME = ZZVerticalMarqueeView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		44A648C5128FDB2013D2002F1537F92F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14146EC97EE9BDA352509E6076BF07C9 /* ZZVerticalMarqueeView.release.xcconfig */;
+			baseConfigurationReference = F5BF7C71357739C2D7F9808425D43116 /* ZZVerticalMarqueeView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -798,6 +782,30 @@
 			};
 			name = Debug;
 		};
+		ABC6D00A3C12EA5580A46F37094D4100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E9D2BDADD8275CDBD4FEE2CB2C4291 /* ZZVerticalMarqueeView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZVerticalMarqueeView/ZZVerticalMarqueeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZZVerticalMarqueeView;
+				PRODUCT_NAME = ZZVerticalMarqueeView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		EC4109DC511A0062C174816D3C469E8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80F04C1704BAABA97A25C036D1DE7BED /* Pods-ZZVerticalMarqueeView_Tests.debug.xcconfig */;
@@ -883,11 +891,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A3D03356FEF51384FE3B72E37FE76DF /* Build configuration list for PBXNativeTarget "ZZVerticalMarqueeView" */ = {
+		32EC5C7591A8BD66131340B3BDA6E327 /* Build configuration list for PBXNativeTarget "ZZVerticalMarqueeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A61841619F2F342F2D6882A36D26A24 /* Debug */,
-				44A648C5128FDB2013D2002F1537F92F /* Release */,
+				ABC6D00A3C12EA5580A46F37094D4100 /* Debug */,
+				312055BA43991F9F360B8B0D3D65ACB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

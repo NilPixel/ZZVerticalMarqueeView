@@ -9,6 +9,7 @@
 #import "ZZVerticalMarqueeView.h"
 #import "UIView+Extension.h"
 #import "Masonry.h"
+#import "TimerProxy.h"
 
 @interface ZZVerticalMarqueeView ()
 
@@ -137,10 +138,11 @@
 
 - (void)start {
     [self invalidateTimer];
+    TimerProxy *proxy=[[TimerProxy alloc]initWithTarget: self];
     if (_scrollTimeInterval == 0) {
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(nextAd) userInfo:nil repeats:YES];
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:proxy selector:@selector(nextAd) userInfo:nil repeats:YES];
     } else {
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:_scrollTimeInterval target:self selector:@selector(nextAd) userInfo:nil repeats:YES];
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:_scrollTimeInterval target:proxy selector:@selector(nextAd) userInfo:nil repeats:YES];
     }
 }
 
@@ -158,6 +160,7 @@
 
 - (void)dealloc {
     [self invalidateTimer];
+    NSLog(@"timer销毁了");
 }
 
 @end
